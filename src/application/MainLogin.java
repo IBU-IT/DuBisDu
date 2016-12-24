@@ -1,8 +1,6 @@
 package application;
 
-/**
- * Created by Tanvir on 7/22/2016.
- */
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

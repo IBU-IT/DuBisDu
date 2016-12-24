@@ -2,9 +2,7 @@ package student;
 
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- * Created by Tanvir on 8/25/2016.
- */
+
 public class resultHistoryTableData {
     private final SimpleStringProperty resultHistoryTableCourseCode;
     private final SimpleStringProperty resultHistoryTableSec;

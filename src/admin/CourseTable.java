@@ -1,21 +1,36 @@
-package student;
+package admin;
+
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
 
-public class RegistrationTableData {
-
+public class CourseTable {
+    private final SimpleIntegerProperty courseTableDataNo;
     private final SimpleStringProperty courseTableDataCode;
     private final SimpleStringProperty courseTableDataTitle;
     private final SimpleIntegerProperty courseTableDataCredit;
     private final SimpleStringProperty courseTableDataSec;
 
-    public RegistrationTableData(String courseTableDataCode, String courseTableDataTitle, int courseTableDataCredit, String courseTableDataSec) {
+
+    public CourseTable(int courseTableDataNo, String courseTableDataCode, String courseTableDataTitle, int courseTableDataCredit, String courseTableDataSec) {
+        this.courseTableDataNo = new SimpleIntegerProperty(courseTableDataNo);
         this.courseTableDataCode = new SimpleStringProperty(courseTableDataCode);
         this.courseTableDataTitle = new SimpleStringProperty(courseTableDataTitle);
         this.courseTableDataCredit = new SimpleIntegerProperty(courseTableDataCredit);
         this.courseTableDataSec = new SimpleStringProperty(courseTableDataSec);
+    }
+
+    public int getCourseTableDataNo() {
+        return courseTableDataNo.get();
+    }
+
+    public SimpleIntegerProperty courseTableDataNoProperty() {
+        return courseTableDataNo;
+    }
+
+    public void setCourseTableDataNo(int courseTableDataNo) {
+        this.courseTableDataNo.set(courseTableDataNo);
     }
 
     public String getCourseTableDataCode() {

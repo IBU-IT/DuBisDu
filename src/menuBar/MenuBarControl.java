@@ -9,9 +9,7 @@ import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
-/**
- * Created by Tanvir on 8/16/2016.
- */
+
 public class MenuBarControl {
 
     public void close(){

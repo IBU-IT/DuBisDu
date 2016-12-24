@@ -24,9 +24,7 @@ import java.text.DecimalFormat;
 
 import static jdk.nashorn.internal.objects.NativeMath.round;
 
-/**
- * Created by Tanvir on 8/21/2016.
- */
+
 public class TeacherController {
 
     @FXML

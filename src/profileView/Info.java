@@ -7,9 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- * Created by Tanvir on 8/13/2016.
- */
+
 public class Info {
     private String id,name,department,cgpa,vemail,dob,email,phone;
     private String gname,gemail,gphone,address;

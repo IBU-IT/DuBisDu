@@ -15,9 +15,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- * Created by Tanvir on 8/13/2016.
- */
 public class ProfileView {
 
     @FXML

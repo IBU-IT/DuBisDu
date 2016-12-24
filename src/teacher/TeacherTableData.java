@@ -2,9 +2,7 @@ package teacher;
 
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- * Created by Tanvir on 8/21/2016.
- */
+
 public class TeacherTableData {
     private final SimpleStringProperty teacherTableDataID;
     private final SimpleStringProperty teacherTableDataName;

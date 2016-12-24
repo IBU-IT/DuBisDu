@@ -26,9 +26,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
 
-/**
- * Created by Tanvir on 8/20/2016.
- */
+
 public class RegistrationController implements Initializable {
 
     private DB database = new DB();
